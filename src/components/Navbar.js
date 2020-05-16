@@ -12,17 +12,40 @@ export default class Navbar extends Component {
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */}
                 <Link to='/'>
+                <ButtonContainer>
+                <span className="mr-2">
                 <img src={logo} style={{width: '100%', maxWidth: 60,
-                    height: 'auto'}} alt="store" className="navbar-brand" />
+                height: 'auto'}} alt="store" className="navbar-brand" />
+                </span>
+                </ButtonContainer>
+                
                
                 </Link >
-              
+
+                <Link to='/'>
+                <ButtonContainer>
+               <span className="mr-2">
+              Prodotti
+               </span>
+               </ButtonContainer>
+               
+
+               
+
+               <ButtonContainer>
+               <span className="mr-2">
+               Saldi
+               </span>
+               </ButtonContainer>
+               
+                </Link >
+            
                 <Link to='/cart' className="ml-auto">
                 
                     <ButtonContainer>
                     
                         <span  className="mr-2">
-                        
+                          
                             <i className="fas fa-cart-plus" fa-7x/>
                             
             </span>
@@ -36,8 +59,7 @@ https://www.iconfinder.com/Makoto_msk */}
 
 const NavWrapper = styled.nav`
 background: #fff !important;
-border-bottom-left-radius: 40px;
-border-bottom-right-radius: 40px;
+
 -webkit-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
