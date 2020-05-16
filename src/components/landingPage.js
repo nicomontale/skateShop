@@ -29,8 +29,8 @@ export default class landingPage extends Component {
             <div class="gallery" id="gallery">
             
            
-              <div class="mb-3 pics animation all 1">
-              <Banner title="Chi siamo" subtitle="contatti">
+              <div class="mb-3 pics fade-in one all 1">
+              <Banner title="CHI SIAMO" subtitle="contatti">
               <Link to="/" className="btn-primary ">
                   
   </Link>
@@ -40,7 +40,7 @@ export default class landingPage extends Component {
                
               </div>
              
-              <div class="mb-3 pics animation all 1" style={{marginBottom: "150px"}}>
+              <div class="mb-3 pics fade-in two all 1" style={{marginBottom: "150px"}}>
               <Banner title="STREETWEAR" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
                   
@@ -49,7 +49,7 @@ export default class landingPage extends Component {
                 <img class="img-fluid" src={skateStreet} alt="Card image cap"/>
               </div>
               
-              <div class="mb-3 pics animation all 1">
+              <div class="mb-3 pics fade-in three all 1">
               <Banner title="SKATEBOARD" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
                  
@@ -58,7 +58,7 @@ export default class landingPage extends Component {
                 <img class="img-fluid" src={imSkate} alt="Card image cap"/>
               </div>
             
-              <div class="mb-3 pics animation all 2" >
+              <div class="mb-3 pics fade-in four all 2" >
               <Banner title="SCARPE" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
                   
@@ -67,7 +67,7 @@ export default class landingPage extends Component {
                 <img class="img-fluid" src={shoes} alt="Card image cap"/>
               </div>
               
-              <div class="mb-3 pics animation all 2">
+              <div class="mb-3 pics fade-in five all 2">
               <Banner title="SURF" subtitle="STAGIONE ESTIVA">
               <Link to="/" className="btn-primary ">
                   
@@ -76,7 +76,7 @@ export default class landingPage extends Component {
                 <img class="img-fluid" src={imgSurf} alt="Card image cap" />
               </div>
               
-              <div class="mb-3 pics animation all 1">
+              <div class="mb-3 pics fade-in six all 1">
               <Banner title="SNOWBOARD" subtitle="SALDI">
               <Link to="/" className="btn-primary ">
                  
