@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import logo from '../img/strike.png';
+import logo from '../imgLandingPage/strike.png';
 import { ButtonContainer } from './Button';
 import styled from 'styled-components'
 import 'bootstrap/dist/css/bootstrap.min.css'

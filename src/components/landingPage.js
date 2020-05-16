@@ -1,13 +1,16 @@
 import React, { Component, useEffect } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import img from '../img/strike_ingress.JPG'
-import imgSurf from '../img/surf.jpg'
-import imSkate from '../img/skateboards.jpg'
-import skateStreet from '../img/skatestreet.jpg'
-import imgsnowboard from '../img/snowboard.jpg'
-import shoes from '../img/shoes.jpg'
+import Banner from './Banner'
+import {Link } from 'react-router-dom'
+import img from '../imgLandingPage/strike_ingress.JPG'
+import imgSurf from '../imgLandingPage/surf2.jpg'
+import imSkate from '../imgLandingPage/skateboards.jpg'
+import skateStreet from '../imgLandingPage/skatestreet.jpg'
+import imgsnowboard from '../imgLandingPage/snowboard.jpg'
+import shoes from '../imgLandingPage/shoes.jpg'
 import '../App.css'
+
 
 const Pricing=()=> {
 useEffect(()=> {
@@ -18,7 +21,7 @@ export default class landingPage extends Component {
    
     render() {
         return (
-           <>
+           <div style={{zIndex:2}}>
             
            
             
@@ -27,32 +30,64 @@ export default class landingPage extends Component {
             
            
               <div class="mb-3 pics animation all 1">
+              <Banner title="Chi siamo" subtitle="contatti">
+              <Link to="/" className="btn-primary ">
+                  
+  </Link>
+          </Banner>
                 <img class="img-fluid" src={img} alt="Card image cap"/>
+                
+               
               </div>
              
-              <div class="mb-3 pics animation all 1">
-                <img class="img-fluid" src={skateStreet} alt="Card image cap" />
+              <div class="mb-3 pics animation all 1" style={{marginBottom: "150px"}}>
+              <Banner title="STREETWEAR" subtitle="NUOVA COLLEZIONE">
+              <Link to="/" className="btn-primary ">
+                  
+  </Link>
+          </Banner>
+                <img class="img-fluid" src={skateStreet} alt="Card image cap"/>
               </div>
               
               <div class="mb-3 pics animation all 1">
+              <Banner title="SKATEBOARD" subtitle="NUOVA COLLEZIONE">
+              <Link to="/" className="btn-primary ">
+                 
+  </Link>
+          </Banner>
                 <img class="img-fluid" src={imSkate} alt="Card image cap"/>
               </div>
             
-              <div class="mb-3 pics animation all 2">
+              <div class="mb-3 pics animation all 2" >
+              <Banner title="SCARPE" subtitle="NUOVA COLLEZIONE">
+              <Link to="/" className="btn-primary ">
+                  
+  </Link>
+          </Banner>
                 <img class="img-fluid" src={shoes} alt="Card image cap"/>
               </div>
               
               <div class="mb-3 pics animation all 2">
+              <Banner title="SURF" subtitle="STAGIONE ESTIVA">
+              <Link to="/" className="btn-primary ">
+                  
+  </Link>
+          </Banner>
                 <img class="img-fluid" src={imgSurf} alt="Card image cap" />
               </div>
               
               <div class="mb-3 pics animation all 1">
+              <Banner title="SNOWBOARD" subtitle="SALDI">
+              <Link to="/" className="btn-primary ">
+                 
+  </Link>
+          </Banner>
                 <img class="img-fluid" src={imgsnowboard} alt="Card image cap" />
               </div>
             
             
             </div>
-        </>
+        </div >
             
             
             
