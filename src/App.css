@@ -141,7 +141,7 @@ color: var(--mainWhite) !important;
   z-index: 0;
   background: #fffcfcb6;
   color: var(--mainWhite);
-  padding: 3.2rem 0.2rem;
+  padding: 4rem 2rem 3rem 2rem;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
@@ -162,7 +162,7 @@ color: var(--mainWhite) !important;
   opacity: 0.5;
 }
 
-.
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
