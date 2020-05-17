@@ -59,13 +59,28 @@ color: var(--mainWhite) !important;
   -moz-column-width: 33%;
   column-width: 33%; 
   
+  
 }
   .gallery .pics {
     position: relative;
     z-index: 2;
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease; 
+ 
   }
+  .street_img_landing {
+   width: 600px !important;
+   height: 489px !important;
+  }
+  .snow_img_landing {
+    width: 600px !important;
+   height: 519px !important;
+  }
+  .shoes_img_landing {
+    width: 600px !important;
+   height: 388px !important;
+  }
+  
   .gallery .animation {
    z-index: 1;
   -webkit-transform: scale(1);
@@ -113,7 +128,20 @@ color: var(--mainWhite) !important;
   
 }
 
-
+@media screen and (max-width: 1200px) {
+  .street_img_landing {
+    width: 600px !important;
+    height: 489px !important;
+   }
+   .snow_img_landing {
+     width: 600px !important;
+    height: 479px !important;
+   }
+   .shoes_img_landing {
+     width: 600px !important;
+    height: 388px !important;
+   }
+}
 
 @media screen and (max-width: 1000px) {
   .gallery {
@@ -131,7 +159,8 @@ color: var(--mainWhite) !important;
     max-width: 50%;
   }
   .pics img{
-    width: 1000px;
+    width: 1000px !important;
+    height: auto !important;
   }
 }
 
