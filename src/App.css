@@ -81,15 +81,15 @@ color: var(--mainWhite) !important;
   -moz-column-width: 100%;
   column-width: 100%;
   }
-  
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .pics img{
+    width: 1000px;
   }
   
-  @media only screen and (max-width: 1350px) {
-  .btn.filter {
-  padding-left: 1.1rem;
-  padding-right: 1.1rem;
-  }
-  }
+}
 
   .row {
   display: flex;
@@ -111,8 +111,19 @@ color: var(--mainWhite) !important;
   
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+
+
+@media screen and (max-width: 1000px) {
+  .gallery {
+    z-index: 2;
+    margin-top: 20px;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 100%;
+  -moz-column-width: 100%;
+  column-width: 100%;
+  }
   .column {
     flex: 50%;
     max-width: 50%;
