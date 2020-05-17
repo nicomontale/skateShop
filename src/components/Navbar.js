@@ -21,7 +21,11 @@ https://www.iconfinder.com/Makoto_msk */}
                 
                
                 </Link >
-
+                <ButtonContainer>
+                <span className="mr-2">
+                Home
+                </span>
+                </ButtonContainer>
                 <Link to='/'>
                 <ButtonContainer>
                <span className="mr-2">
@@ -46,7 +50,7 @@ https://www.iconfinder.com/Makoto_msk */}
                     
                         <span  className="mr-2">
                           
-                            <i className="fas fa-cart-plus" fa-7x/>
+                            <i className="fas fa-cart-plus" fa-7x style={{marginLeft: '4px'}}/>
                             
             </span>
                     </ButtonContainer>

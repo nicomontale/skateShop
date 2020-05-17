@@ -47,7 +47,7 @@ export default class landingPage extends Component {
                   
   </Link>
           </Banner>
-                <img class="img-fluid" src={skateStreet} alt="Card image cap"/>
+                <img class="img-fluid" src={skateStreet} alt="Card image cap" />
               </div>
               
               <div class="mb-3 pics fade-in three all 1">
