@@ -184,19 +184,21 @@ color: var(--mainWhite) !important;
   align-self: center;
   
   z-index: 0;
-  background: #fffcfcb6;
+  background: rgba(255, 245, 245, 0.6);
   color: var(--mainWhite);
   padding: 4rem 2rem 3rem 2rem;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   border: "white";
+  border-radius: 10px;
+
 }
 
 
 .banner h1{
-  font-size: 30px;
-  font-weight: solid bold;
+  font-size: 1.8rem;
+  font-weight: solid bold 500;
   color: black;
 }
 
