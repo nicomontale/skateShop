@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
     render() {
         return (
-            <div >
+   
            
-            <footer class="page-footer font-small cyan darken-3" >
+            <footer class="page-footer text-center font-small cyan darken-3" >
             
          
               <div class="container" >
@@ -15,7 +15,7 @@ export default class Footer extends Component {
             
                   
                   <div class="col-md-12 py-5 " >
-                    <div class="mb-5 flex-start footer_style" >
+                    <div class="mb-5 flex-start " >
             
                      
                       <a class="fb-ic">
@@ -55,7 +55,7 @@ export default class Footer extends Component {
             
             </footer>
             
-            </div>
+            
         )
     }
 }
