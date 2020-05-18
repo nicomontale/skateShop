@@ -170,6 +170,18 @@ color: var(--mainWhite) !important;
     flex: 100%;
     max-width: 100%;
   }
+  .footer_style{
+    width: 250px !important;
+
+
+    margin: 0 auto;
+    }
+    .copyright_style {
+      width: 250px !important;
+
+
+margin: 0 auto;
+    }
 }
 
 .banner {
@@ -262,3 +274,14 @@ color: var(--mainWhite) !important;
   animation-delay: 1.9s;
 }
 
+.footer_style{
+  width: 400px;
+  
+  margin: 0 auto;
+}
+.copyright_style {
+  width: 400px;
+
+
+margin: 0 auto;
+}
