@@ -5,16 +5,16 @@ export default class Footer extends Component {
         return (
    
            
-            <footer class="page-footer text-center font-small cyan darken-3" >
+            <footer class="page-footer text-center font-small cyan darken-3 " >
             
          
-              <div class="container" >
+              <div class="container footer-style" >
             
                
                 <div class="row"  >
             
                   
-                  <div class="col-md-12 py-5 " >
+                  <div class="col-md-12 py-5 " style={{height: '50px'}}>
                     <div class="mb-5 flex-start " >
             
                      
