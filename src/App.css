@@ -10,7 +10,7 @@ body {
   font-family: 'Oswald', sans-serif !important;
 
   color: var(--mainDark) !important;
-  background-color: #a7e2c6 !important;
+  background-color: #dbf6e9 !important;
 
 }
 .text-title {
@@ -51,7 +51,7 @@ color: var(--mainWhite) !important;
 
 
 .gallery {
-  background-color: #a7e2c6;
+ 
   z-index: 2;
   margin-top: 20px;
   -webkit-column-count: 3;
@@ -162,6 +162,15 @@ color: var(--mainWhite) !important;
   .navbar{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+  }
+  .pics img{
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .page-footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
   }
 }
 

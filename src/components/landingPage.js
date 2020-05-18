@@ -21,7 +21,7 @@ export default class landingPage extends Component {
    
     render() {
         return (
-           <div style={{zIndex:2, backgroundColor: '#a7e2c6'}}>
+           <div style={{zIndex:2}}>
             
            
             
