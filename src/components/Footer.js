@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
    
            
-            <footer class="page-footer text-center font-small cyan darken-3 " >
+            <footer class="page-footer text-center font-small cyan darken-3 " style={{backgroundColor: '#00C196'}}>
             
          
               <div class="container footer-style" >

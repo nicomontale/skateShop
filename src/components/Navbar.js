@@ -62,7 +62,7 @@ https://www.iconfinder.com/Makoto_msk */}
 }
 
 const NavWrapper = styled.nav`
-background: #fff !important;
+background: #00C196 !important;
 
 -webkit-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);

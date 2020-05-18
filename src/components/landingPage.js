@@ -21,7 +21,7 @@ export default class landingPage extends Component {
    
     render() {
         return (
-           <div style={{zIndex:2}}>
+           <div style={{zIndex:2, backgroundColor: '#a7e2c6'}}>
             
            
             
@@ -47,7 +47,7 @@ export default class landingPage extends Component {
                   
   </Link>
           </Banner>
-                <img class="img-fluid street_img_landing" src={skateStreet} alt="Card image cap" />
+                <img class="img-fluid street_img_landing" src={skateStreet} alt="Card image cap"  />
               </div>
               
               <div class="mb-3 pics fade-in three all 1">
@@ -65,7 +65,7 @@ export default class landingPage extends Component {
                   
   </Link>
           </Banner>
-                <img class="img-fluid shoes_img_landing" src={shoes} alt="Card image cap"/>
+                <img class="img-fluid shoes_img_landing" src={shoes} alt="Card image cap" />
               </div>
               
               <div class="mb-3 pics fade-in five all 2">
@@ -83,7 +83,7 @@ export default class landingPage extends Component {
                  
   </Link>
           </Banner>
-                <img class="img-fluid snow_img_landing" src={imgsnowboard} alt="Card image cap" />
+                <img class="img-fluid " src={imgsnowboard} alt="Card image cap" />
               </div>
             
             

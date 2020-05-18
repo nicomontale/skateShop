@@ -8,8 +8,9 @@
 }
 body {
   font-family: 'Oswald', sans-serif !important;
-  background: var(--mainWhite) !important;
+
   color: var(--mainDark) !important;
+  background-color: #a7e2c6 !important;
 
 }
 .text-title {
@@ -50,6 +51,7 @@ color: var(--mainWhite) !important;
 
 
 .gallery {
+  background-color: #a7e2c6;
   z-index: 2;
   margin-top: 20px;
   -webkit-column-count: 3;
@@ -58,7 +60,7 @@ color: var(--mainWhite) !important;
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
   column-width: 33%; 
-  
+ 
   
 }
   .gallery .pics {
@@ -66,20 +68,23 @@ color: var(--mainWhite) !important;
     z-index: 2;
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease; 
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+  
  
   }
-  .street_img_landing {
-   width: 600px !important;
-   height: 489px !important;
+  
+  .pics img {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
   }
-  .snow_img_landing {
-    width: 600px !important;
-   height: 519px !important;
-  }
-  .shoes_img_landing {
-    width: 600px !important;
-   height: 388px !important;
-  }
+  
+ 
+  
   
   .gallery .animation {
    z-index: 1;
@@ -128,20 +133,7 @@ color: var(--mainWhite) !important;
   
 }
 
-@media screen and (max-width: 1200px) {
-  .street_img_landing {
-    width: 600px !important;
-    height: 489px !important;
-   }
-   .snow_img_landing {
-     width: 600px !important;
-    height: 479px !important;
-   }
-   .shoes_img_landing {
-     width: 600px !important;
-    height: 388px !important;
-   }
-}
+
 
 @media screen and (max-width: 1000px) {
   .gallery {
@@ -158,10 +150,7 @@ color: var(--mainWhite) !important;
     flex: 50%;
     max-width: 50%;
   }
-  .pics img{
-    width: 1000px !important;
-    height: auto !important;
-  }
+  
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -170,7 +159,10 @@ color: var(--mainWhite) !important;
     flex: 100%;
     max-width: 100%;
   }
-  
+  .navbar{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
 }
 
 .banner {
@@ -184,7 +176,7 @@ color: var(--mainWhite) !important;
   justify-content: center;
   align-self: center;
   
-  z-index: 0;
+  z-index: 1;
   background: rgba(255, 245, 245, 0.6);
   color: var(--mainWhite);
   padding: 4rem 2rem 3rem 2rem;
