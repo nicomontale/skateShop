@@ -10,7 +10,7 @@ import skateStreet from '../imgLandingPage/skatestreet.jpg'
 import imgsnowboard from '../imgLandingPage/snowboard.jpg'
 import shoes from '../imgLandingPage/shoes.jpg'
 import '../App.css'
-
+import logo from '../imgLandingPage/strike.png';
 
 const Pricing=()=> {
 useEffect(()=> {
@@ -23,7 +23,11 @@ export default class landingPage extends Component {
         return (
           
            <div style={{zIndex:2}}>
+            <div class="text-center logo" style={{marginTop: '35px'}}>
+            <img src={logo} style={{width: '60%'}} alt="store" className="navbar-brand" />
             
+            
+            </div>
            
             
            

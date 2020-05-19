@@ -53,6 +53,14 @@ color: var(--mainWhite) !important;
   margin-left: 35px
 }
 
+.logo {
+  margin: auto;
+  top: 50%;
+  left: 50%;
+}
+.drawer {
+  display: none;
+}
 
 
 
@@ -184,6 +192,9 @@ color: var(--mainWhite) !important;
   }
   .vis {
     display: none;
+  }
+  .drawer {
+    display: inline;
   }
   
 }

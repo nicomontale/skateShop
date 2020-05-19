@@ -11,6 +11,18 @@ export default class Navbar extends Component {
                 {/* https://www.iconfinder.com/icons/1243689/call_phone_icon
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */}
+<Link to='/cart' className="ml drawer">
+                
+                <ButtonContainer>
+                
+                    <span  className="mr-2">
+                      
+                        <i className="fas fa-bars" fa-7x/>
+                        
+        </span>
+                </ButtonContainer>
+
+            </Link>
                 <Link to='/'>
                 <ButtonContainer>
                 <span className="mr-2">
