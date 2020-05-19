@@ -110,10 +110,28 @@ color: var(--mainWhite) !important;
   -moz-column-width: 100%;
   column-width: 100%;
   }
+  
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 100%;
+    max-width: 100%;
   }
+  .navbar{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .pics img{
+    border-radius: 40px;
+    padding: 22px 20px;
+    
+    perspective: 1px;
+
+  }
+  .page-footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+  }
+  
   
   
 }
@@ -153,8 +171,11 @@ color: var(--mainWhite) !important;
     border-bottom-right-radius: 20px;
   }
   .pics img{
-    border-radius: 30px;
-    padding: 30px;
+    border-radius: 40px;
+    padding: 22px 20px;
+    
+    perspective: 1px;
+
   }
   .page-footer {
     border-top-left-radius: 20px;
