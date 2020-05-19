@@ -22,27 +22,37 @@ https://www.iconfinder.com/Makoto_msk */}
                
                 </Link >
                 <ButtonContainer>
-                <span className="mr-2">
+                <span className="mr-2 vis">
                 Home
                 </span>
                 </ButtonContainer>
                 <Link to='/'>
                 <ButtonContainer>
-               <span className="mr-2">
+               <span className="mr-2 vis">
               Prodotti
                </span>
                </ButtonContainer>
-               
+               </Link>
 
                
-
+               <Link>
                <ButtonContainer>
-               <span className="mr-2">
+               <span className="mr-2 vis">
                Saldi
                </span>
                </ButtonContainer>
                
                 </Link >
+
+                <Link>
+               <ButtonContainer>
+               <span className="mr-2 vis">
+               Eventi
+               </span>
+               </ButtonContainer>
+               
+                </Link >
+                
             
                 <Link to='/cart' className="ml-auto">
                 
@@ -62,14 +72,14 @@ https://www.iconfinder.com/Makoto_msk */}
 }
 
 const NavWrapper = styled.nav`
-background: #00C196 !important;
+background: #006062!important;
 
 -webkit-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 
 .nav-link{
-    color:var(--mainWhite) !important;
+    color:white !important;
     font-size:1.3rem;
     text-transfomr: capitalize !important;
 

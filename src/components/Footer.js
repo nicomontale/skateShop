@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
    
            
-            <footer class="page-footer text-center font-small cyan darken-3 " style={{backgroundColor: '#00C196'}}>
+            <footer class="page-footer text-center font-small cyan darken-3 " style={{backgroundColor: '#006062'}}>
             
          
               <div class="container footer-style" >
@@ -49,7 +49,7 @@ export default class Footer extends Component {
               </div>
               
               <div class="footer-copyright text-center py-3 copyright_style">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> SkateShop.com</a>
+                <a href="https://mdbootstrap.com/"> SKateShop.com</a>
               </div>
               
             

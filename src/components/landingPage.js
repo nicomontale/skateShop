@@ -21,6 +21,7 @@ export default class landingPage extends Component {
    
     render() {
         return (
+          
            <div style={{zIndex:2}}>
             
            
