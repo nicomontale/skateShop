@@ -231,7 +231,7 @@ color: var(--mainWhite) !important;
   
     .searchbar:hover > .search_input{
  
-    width: 90px;
+    width: 70px;
     caret-color:red;
     transition: width 0.4s linear;
     }
