@@ -9,7 +9,7 @@ import imSkate from '../imgLandingPage/skateboards.jpg'
 import skateStreet from '../imgLandingPage/skatestreet.jpg'
 import imgsnowboard from '../imgLandingPage/snowboard.jpg'
 import shoes from '../imgLandingPage/shoes.jpg'
-import '../App.css'
+import '../App.scss'
 import logo from '../imgLandingPage/strike.png';
 
 const Pricing=()=> {

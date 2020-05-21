@@ -4,7 +4,7 @@ import LandingPage from './components/landingPage';
 import {Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import './App.css';
+import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 export default class App extends Component {
   render() {

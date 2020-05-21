@@ -32,7 +32,7 @@ Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */}
 
                 
-                <ButtonContainer>
+                <ButtonContainer >
                 
                     <span  className="mr-2 drawer">
                       
@@ -41,7 +41,18 @@ https://www.iconfinder.com/Makoto_msk */}
                         
         </span>
                 </ButtonContainer>
-
+                <ButtonContainer className="searching">
+                
+                <div class="container h-100" >
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Search..."/>
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+        </div>
+    </div>
+                
+                </ButtonContainer>
            
                 <Link to='/'>
                 <ButtonContainer >
@@ -104,7 +115,7 @@ https://www.iconfinder.com/Makoto_msk */}
 }
 
 const NavWrapper = styled.nav`
-background: #006062!important;
+background: #000 !important;
 
 -webkit-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
