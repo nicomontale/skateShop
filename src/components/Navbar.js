@@ -4,28 +4,48 @@ import logo from '../imgLandingPage/strike.png';
 import { ButtonContainer } from './Button';
 import styled from 'styled-components'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 export default class Navbar extends Component {
+    state= {
+        open: false
+    }
+openMenu=()=> {
+    return (
+        <div className="menu">
+                        <ul class="nav-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Projects</a></li>
+                      </ul>
+                        
+                    
+                        
+                        </div>
+    )
+}
+    
     render() {
         return (
             <NavWrapper className="navbar navbar-expand-lg bg-primary navbar-dark px-sm-5">
                 {/* https://www.iconfinder.com/icons/1243689/call_phone_icon
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */}
-<Link to='/cart' className="ml drawer">
+
                 
                 <ButtonContainer>
                 
-                    <span  className="mr-2">
+                    <span  className="mr-2 drawer">
                       
-                        <i className="fas fa-bars" fa-7x/>
+                        <i   className="fas fa-bars" fa-7x/>
+                        
                         
         </span>
                 </ButtonContainer>
 
-            </Link>
+           
                 <Link to='/'>
-                <ButtonContainer>
-                <span className="mr-2">
+                <ButtonContainer >
+                <span className="mr-2 vis" style={{marginLeft: '0px'}}>
                 <img src={logo} style={{width: '100%', maxWidth: 60,
                 height: 'auto'}} alt="store" className="navbar-brand" />
                 </span>
@@ -92,7 +112,7 @@ box-shadow: 0px 33px 42px -35px rgba(0,0,0,0.75);
 
 .nav-link{
     color:white !important;
-    font-size:1.3rem;
+    font-size:2.3rem;
     text-transfomr: capitalize !important;
 
 

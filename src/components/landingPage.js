@@ -23,8 +23,8 @@ export default class landingPage extends Component {
         return (
           
            <div style={{zIndex:2}}>
-            <div class="text-center logo" style={{marginTop: '35px'}}>
-            <img src={logo} style={{width: '60%'}} alt="store" className="navbar-brand" />
+            <div class="text-center logo" style={{marginTop: '35px', marginBottom: '55px'}}>
+            <img src={logo} style={{width: '40%'}} alt="store" className="logo-landing" />
             
             
             </div>
