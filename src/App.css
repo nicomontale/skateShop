@@ -215,7 +215,7 @@ color: var(--mainWhite) !important;
     height: 40px;
     background-color: #353b48;
     border-radius: 60px;
-    padding: 10px;
+    padding: 8px;
     }
   
     .search_input{
@@ -242,7 +242,7 @@ color: var(--mainWhite) !important;
     }
   
     .search_icon{
-    height: 19px;
+    height: 23px;
     width: 20px;
     float: right;
     display: flex;
