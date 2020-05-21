@@ -41,6 +41,14 @@ https://www.iconfinder.com/Makoto_msk */}
                         
         </span>
                 </ButtonContainer>
+                <Link to='/'>
+                <ButtonContainer >
+                <span className="mr-2" style={{marginLeft: '0px'}}>
+                <img src={logo} style={{width: '100%', maxWidth: 80,
+                height: 'auto'}} alt="store" className="navbar-brand" />
+                </span>
+                </ButtonContainer>
+                </Link >
                 <ButtonContainer className="searching">
                 
                 <div class="container h-100" >
@@ -54,16 +62,10 @@ https://www.iconfinder.com/Makoto_msk */}
                 
                 </ButtonContainer>
            
-                <Link to='/'>
-                <ButtonContainer >
-                <span className="mr-2 vis" style={{marginLeft: '0px'}}>
-                <img src={logo} style={{width: '100%', maxWidth: 60,
-                height: 'auto'}} alt="store" className="navbar-brand" />
-                </span>
-                </ButtonContainer>
+               
                 
                
-                </Link >
+                
                 <ButtonContainer>
                 <span className="mr-2 vis">
                 Home

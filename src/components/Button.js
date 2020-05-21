@@ -8,12 +8,12 @@ border: 0.5rem solid var(--lightBlue);
 color:   "var(--lightYellow)";
 border-color: "var(--lighYellow)";
 bored-radius: 0.5rem;
-padding: 0.2rem;
+padding: 0.1rem;
 cursor: pointer;
-margin: 0.2rem 0.1rem 0.1rem 0;
+margin: 0.1rem 0.1rem 0.1rem 0;
 transition: all 0.5s ease-in-out;
 &:hover{
-    background: "var(--mainYellow)" ;
+   
     color:var(--mainBlue);
 
 } &:focus {

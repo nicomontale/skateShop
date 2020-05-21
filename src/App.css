@@ -225,7 +225,7 @@ color: var(--mainWhite) !important;
     background: none;
     width: 0;
     caret-color:transparent;
-    line-height: 20px;
+    line-height: 0px;
     transition: width 0.4s linear;
     }
     ::placeholder {
