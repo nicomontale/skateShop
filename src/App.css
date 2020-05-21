@@ -213,7 +213,7 @@ color: var(--mainWhite) !important;
     margin-bottom: auto;
     margin-top: auto;
     height: 40px;
-    background-color: #353b48;
+    background-color: red;
     border-radius: 60px;
     padding: 8px;
     }
@@ -228,11 +228,14 @@ color: var(--mainWhite) !important;
     line-height: 20px;
     transition: width 0.4s linear;
     }
+    ::placeholder {
+      color: white transparent;
+    }
   
     .searchbar:hover > .search_input{
  
-    width: 9©0px;
-    caret-color:red;
+    width: 90px;
+    caret-color:rgb(198, 1, 1);
     transition: width 0.4s linear;
     }
   
