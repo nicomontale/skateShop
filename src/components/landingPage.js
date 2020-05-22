@@ -11,19 +11,16 @@ import imgsnowboard from '../imgLandingPage/snowboard.jpg'
 import shoes from '../imgLandingPage/shoes.jpg'
 import '../App.css'
 import logo from '../imgLandingPage/strike.png';
-import ScrollAnimation from 'react-animate-on-scroll';
 
-const Pricing=()=> {
-useEffect(()=> {
-    Aos.init({duration: 2000}, [])
-})
-}
+
+
 export default class landingPage extends Component {
-   
+  
     render() {
+      Aos.init();
         return (
           
-           <div style={{zIndex:2}}>
+           <div style={{zIndex:2, marginBottom:'20px'}}>
             <div class="text-center logo" style={{marginTop: '35px', marginBottom: '55px'}}>
             <img src={logo} style={{width: '40%'}} alt="store" className="logo-landing" />
             
@@ -34,68 +31,75 @@ export default class landingPage extends Component {
            
             <div class="gallery" id="gallery">
             
-           
-              <div class="mb-3 pics fade-in one all 1">
-              <Banner title="CHI SIAMO" subtitle="contatti">
+             
+              <div data-aos="fade-up-right"  class="mb-3 pics fade-in one all 1 ">
+              
               <Link to="/" className="btn-primary ">
+              
+              <Banner title="CHI SIAMO" subtitle="contatti">
+             
                   
-  </Link>
+  
           </Banner>
-          <img class="img-fluid" src={img} alt="Card image cap"/>
+       
+          </Link>
+          
+          <img class="img-fluid ollaa" src={img} alt="Card image cap"/>
                 
-                
+         
                
               </div>
              
-              <div class="mb-3 pics fade-in two all 1" style={{marginBottom: "150px"}}>
+          
+              <div data-aos="fade-up-left" class="mb-3 pics fade-in two all 1" style={{marginBottom: "150px"}}>
               <Banner title="STREETWEAR" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
                   
   </Link>
           </Banner>
-                <img class="img-fluid street_img_landing" src={skateStreet} alt="Card image cap"  />
+                <img class="img-fluid ollaa" src={skateStreet} alt="Card image cap"  />
               </div>
               
-              <div class="mb-3 pics fade-in three all 1">
+              
+              <div data-aos="fade-up-right" class="mb-3 pics fade-in three all 1">
               <Banner title="SKATEBOARD" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
                  
   </Link>
           </Banner>
-                <img class="img-fluid" src={imSkate} alt="Card image cap"/>
+                <img class="img-fluid ollaa" src={imSkate} alt="Card image cap"/>
               </div>
-            <ScrollAnimation animateIn='bounce'
-            initiallyVisible={true}
-            animateOnce={true}>
-              <div class="mb-3 pics fade-in four all 2" >
+              
+              <div data-aos="fade-up-left" class="mb-3 pics fade-in four all 2" >
               <Banner title="SCARPE" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
                   
   </Link>
           </Banner>
-                <img class="img-fluid shoes_img_landing" src={shoes} alt="Card image cap" />
+                <img class="img-fluid ollaa" src={shoes} alt="Card image cap" />
               </div>
-              </ScrollAnimation>
               
-              <div class="mb-3 pics fade-in five all 2">
+              
+              
+              <div data-aos="fade-up-right" class="mb-3 pics fade-in five all 2">
               <Banner title="SURF" subtitle="STAGIONE ESTIVA">
               <Link to="/" className="btn-primary ">
                   
   </Link>
           </Banner>
-                <img class="img-fluid" src={imgSurf} alt="Card image cap" />
+                <img class="img-fluid ollaa" src={imgSurf} alt="Card image cap" />
               </div>
               
-              <div class="mb-3 pics fade-in six all 1">
+              <div data-aos="fade-up-left" class="mb-3 pics fade-in six all 1">
               <Banner title="SNOWBOARD" subtitle="SALDI">
               <Link to="/" className="btn-primary ">
                  
   </Link>
           </Banner>
-                <img class="img-fluid " src={imgsnowboard} alt="Card image cap" />
+                <img class="img-fluid ollaa" src={imgsnowboard} alt="Card image cap" />
               </div>
             
-            
+              
             </div>
         </div >
             

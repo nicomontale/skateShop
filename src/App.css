@@ -227,7 +227,7 @@ color: var(--mainWhite) !important;
     background: none;
     width: 0;
     caret-color:transparent;
-    line-height: 20px;
+   
     transition: width 0.4s linear;
     }
     ::placeholder {
@@ -236,14 +236,14 @@ color: var(--mainWhite) !important;
   
     .searchbar:hover > .search_input{
  
-    width: 90px;
+    width:50px;
     caret-color:rgb(198, 1, 1);
     transition: width 0.4s linear;
     }
   
     .searchbar:hover > .search_icon{
-    background: white;
-    color: #e74c3c;
+    background: #e74c3c;
+    color: white;
     }
   
     .search_icon{
@@ -298,7 +298,11 @@ color: var(--mainWhite) !important;
 .banner:hover {
   opacity: 0.5;
 }
-
+.ollaa {
+  -webkit-box-shadow: 0px 10px 0px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 0px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 0px -2px rgba(0,0,0,0.75);
+}
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
