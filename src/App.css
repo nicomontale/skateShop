@@ -225,7 +225,7 @@ color: var(--mainWhite) !important;
     background: none;
     width: 0;
     caret-color:transparent;
-    line-height: 0px;
+    line-height: 10px;
     transition: width 0.4s linear;
     }
     ::placeholder {
@@ -246,7 +246,7 @@ color: var(--mainWhite) !important;
   
     .search_icon{
     height: 23px;
-    width: 20px;
+    width: 23px;
     float: right;
     display: flex;
     justify-content: center;
