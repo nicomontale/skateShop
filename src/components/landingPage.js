@@ -17,7 +17,12 @@ import logo from '../imgLandingPage/strike.png';
 export default class landingPage extends Component {
   
     render() {
-      Aos.init();
+      Aos.init({
+        disable: function () {
+          var maxWidth = 800;
+          return window.innerWidth > maxWidth;
+        }
+      });
         return (
           
            <div style={{zIndex:2, marginBottom:'20px'}}>
@@ -32,7 +37,7 @@ export default class landingPage extends Component {
             <div class="gallery" id="gallery">
             
              
-              <div data-aos="fade-up-right"  class="mb-3 pics fade-in one all 1 ">
+              <div data-aos="new-animation"  class="mb-3 pics fade-in one all 1 ">
               
               <Link to="/" className="btn-primary ">
               
