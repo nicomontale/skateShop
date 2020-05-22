@@ -119,7 +119,9 @@ color: var(--mainWhite) !important;
   -moz-column-width: 100%;
   column-width: 100%;
   }
-  
+  .searching-1000px {
+    display: none;
+  }
   .column {
     flex: 100%;
     max-width: 100%;
@@ -255,6 +257,9 @@ color: var(--mainWhite) !important;
     color:white;
     text-decoration:none;
     }
+    .searching-1000px {
+      display: none;
+    }
 }
 
 .banner {
@@ -351,4 +356,19 @@ color: var(--mainWhite) !important;
 }
 .searching {
   display: none;
+}
+
+.searching-1000px {
+  margin-right: 35px;
+}
+.form-inline {
+  margin-left: 35px;
+ 
+}
+.form-control {
+  border-radius: 50px;
+}
+
+.fas {
+  color: white;
 }

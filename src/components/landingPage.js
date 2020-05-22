@@ -11,6 +11,7 @@ import imgsnowboard from '../imgLandingPage/snowboard.jpg'
 import shoes from '../imgLandingPage/shoes.jpg'
 import '../App.css'
 import logo from '../imgLandingPage/strike.png';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Pricing=()=> {
 useEffect(()=> {
@@ -63,7 +64,9 @@ export default class landingPage extends Component {
           </Banner>
                 <img class="img-fluid" src={imSkate} alt="Card image cap"/>
               </div>
-            
+            <ScrollAnimation animateIn='bounce'
+            initiallyVisible={true}
+            animateOnce={true}>
               <div class="mb-3 pics fade-in four all 2" >
               <Banner title="SCARPE" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
@@ -72,6 +75,7 @@ export default class landingPage extends Component {
           </Banner>
                 <img class="img-fluid shoes_img_landing" src={shoes} alt="Card image cap" />
               </div>
+              </ScrollAnimation>
               
               <div class="mb-3 pics fade-in five all 2">
               <Banner title="SURF" subtitle="STAGIONE ESTIVA">

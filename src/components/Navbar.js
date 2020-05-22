@@ -5,6 +5,7 @@ import { ButtonContainer } from './Button';
 import styled from 'styled-components'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
 export default class Navbar extends Component {
     state= {
         open: false
@@ -26,7 +27,7 @@ openMenu=()=> {
     
     render() {
         return (
-            <NavWrapper className="navbar navbar-expand-lg bg-primary navbar-dark px-sm-5">
+            <NavWrapper className="navbar navbar-expand{-sm|-md|-lg|-xl} bg-primary navbar-dark px-sm-5">
                 {/* https://www.iconfinder.com/icons/1243689/call_phone_icon
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */}
@@ -88,6 +89,7 @@ https://www.iconfinder.com/Makoto_msk */}
                </ButtonContainer>
                
                 </Link >
+                
 
                 <Link>
                <ButtonContainer>
@@ -98,7 +100,16 @@ https://www.iconfinder.com/Makoto_msk */}
                
                 </Link >
                 
-            
+                <ButtonContainer className="searching-1000px">
+                
+                <form class="form-inline active-purple-4">
+                <input class="form-control form-control-sm rounded mr-3 w-75" type="text" placeholder="Search"
+                  aria-label="Search"/>
+                <i class="fas fa-search"  aria-hidden="true"></i>
+              </form>
+               
+       
+               </ButtonContainer>
                 <Link to='/cart' className="ml-auto">
                 
                     <ButtonContainer>
