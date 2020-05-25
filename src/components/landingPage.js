@@ -11,6 +11,7 @@ import imgsnowboard from '../imgLandingPage/snowboard.jpg'
 import shoes from '../imgLandingPage/shoes.jpg'
 import '../App.css'
 import logo from '../imgLandingPage/strike.png';
+import SkateBoardList from './SkateboardProducts/SkatesList';
 
 
 
@@ -57,50 +58,60 @@ export default class landingPage extends Component {
              
           
               <div data-aos="fade-up-left" class="mb-3 pics fade-in two all 1" style={{marginBottom: "150px"}}>
-              <Banner title="STREETWEAR" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
+              <Banner title="STREETWEAR" subtitle="NUOVA COLLEZIONE">
+             
                   
-  </Link>
+ 
           </Banner>
+          </Link>
                 <img class="img-fluid ollaa" src={skateStreet} alt="Card image cap"  />
               </div>
               
               
               <div data-aos="fade-up-right" class="mb-3 pics fade-in three all 1">
+              <Link to="/skateboardlist" className="btn-primary ">
               <Banner title="SKATEBOARD" subtitle="NUOVA COLLEZIONE">
-              <Link to="/" className="btn-primary ">
+              
                  
-  </Link>
+
           </Banner>
+          </Link>
                 <img class="img-fluid ollaa" src={imSkate} alt="Card image cap"/>
               </div>
               
               <div data-aos="fade-up-left" class="mb-3 pics fade-in four all 2" >
-              <Banner title="SCARPE" subtitle="NUOVA COLLEZIONE">
               <Link to="/" className="btn-primary ">
+              <Banner title="SCARPE" subtitle="NUOVA COLLEZIONE">
+              
                   
-  </Link>
+ 
           </Banner>
+          </Link>
                 <img class="img-fluid ollaa" src={shoes} alt="Card image cap" />
               </div>
               
               
               
               <div data-aos="fade-up-right" class="mb-3 pics fade-in five all 2">
-              <Banner title="SURF" subtitle="STAGIONE ESTIVA">
               <Link to="/" className="btn-primary ">
+              <Banner title="SURF" subtitle="STAGIONE ESTIVA">
+             
                   
-  </Link>
+
           </Banner>
+          </Link>
                 <img class="img-fluid ollaa" src={imgSurf} alt="Card image cap" />
               </div>
               
               <div data-aos="fade-up-left" class="mb-3 pics fade-in six all 1">
-              <Banner title="SNOWBOARD" subtitle="SALDI">
               <Link to="/" className="btn-primary ">
+              <Banner title="SNOWBOARD" subtitle="SALDI">
+             
                  
-  </Link>
+
           </Banner>
+          </Link>
                 <img class="img-fluid ollaa" src={imgsnowboard} alt="Card image cap" />
               </div>
             
