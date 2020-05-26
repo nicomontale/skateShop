@@ -14,9 +14,11 @@ body {
 
 }
 .text-title {
-  font-family: 'Permanent Marker', cursive;
+
+  font-family: 'Impact, Charcoal, sans-serif';
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  justify-content: center;
   
 }
 .text-blue {

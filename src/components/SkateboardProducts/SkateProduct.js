@@ -3,19 +3,26 @@ import {Link} from 'react-router-dom';
 import {ProductConsumer} from '../../context'
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 export default class SkateProduct extends Component {
     render() {
         const {id, title, img, price, inCart } = this.props.product;
+        Aos.init({
+            
+          });
         return (
             
             <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3" >
             
-            <div className="card">
+            <div data-aos="zoom-in" className="card">
             <ProductConsumer> 
                 {value => (<div
-                    className="img-container p-5 ">
+                    className="img-container p-5 "
+                    onClick={()=>value.handleDetail(id)}>
 
-                    <Link to="/">
+                    <Link to="/details">
                         <img src={img} alt="product" className="card-img-top" />
 
                     </Link>
@@ -119,6 +126,10 @@ const ProductWrapper = styled.div`
 transform: translate(0,0);
 }
 .cart-btn:hover {
+    color: var(--mainBlue):
+    curser: pointer;
+}
+.cart-btn:focus {
     color: var(--mainBlue):
     curser: pointer;
 }

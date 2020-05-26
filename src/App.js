@@ -4,6 +4,7 @@ import LandingPage from './components/landingPage';
 import {Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Details from './components/Details'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,6 +17,7 @@ export default class App extends Component {
       
     <Route exact path="/" component={LandingPage}/>
     <Route  path="/skateboardlist" component={SkateBoardList}/>
+    <Route  path="/details" component={Details}/>
     </Switch>
     <Footer/>
     </React.Fragment>
