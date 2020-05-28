@@ -27,7 +27,12 @@ export default class SkateProduct extends Component {
 
                     </Link>
                     <button className="cart-btn"
-                        
+                    disabled={inCart ? true : false}
+                    onClick={() => {
+                     
+                        value.openModal(id);
+                    }
+                    }
                        >
                         {inCart ? (<p className="text-capitalize mb-0" disable>
                             {""}
