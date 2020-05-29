@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react'
+import React, { Component} from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import Banner from './Banner'
@@ -11,7 +11,7 @@ import imgsnowboard from '../imgLandingPage/snowboard.jpg'
 import shoes from '../imgLandingPage/shoes.jpg'
 import '../App.css'
 import logo from '../imgLandingPage/strike.png';
-import SkateBoardList from './SkateboardProducts/SkatesList';
+
 
 
 
