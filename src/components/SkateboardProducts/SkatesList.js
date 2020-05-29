@@ -14,7 +14,7 @@ export default class SkatesList extends Component {
             
             <div className="py-5">
             <div className="container">
-            <Title name="SKATEBOARDS" title=" "/>
+            <Title name="SKATEBOARDS" title=" DECKS"/>
             
             </div>
             <div className="row" style={{marginRight: '0px'}}>

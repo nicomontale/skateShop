@@ -53,10 +53,10 @@ export default class Details extends Component {
                                     {/*button*/}
                                     <div>
                                         <Link to="/skateboardlist">
-                                            <ButtonContainers >Back to the products
+                                            <ButtonContainers >back
                                             </ButtonContainers>
                                         </Link>
-                                        <ButtonContainers
+                                        <ButtonContainers style={{marginLeft: '25px'}}
                                             cart
                                             disabled={inCart ? true : false}
                                            >
@@ -82,12 +82,12 @@ export default class Details extends Component {
 export const ButtonContainers = styled.button`
 text-transform: capitalize;
 font-size: 1.4rem;
-background: transparent;
+background-color: lightyellow;
 
-border: 0.5rem solid lightBlue;
-background-color: white;
+border: 0.1rem solid;
+
 border-color:Yellow;
-bored-radius: 50px !important;
+bored-radius: 20px !important;
 padding: 0.2rem;
 cursor: pointer;
 margin: 0.2rem 0.5rem 0.2rem 0;

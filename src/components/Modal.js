@@ -28,7 +28,7 @@ if(!modalOpen) {
             <div className="row">
                 <div data-aos="zoom-in"id = "modal" className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize">
 
-                    <h5>Aggiunto al carrello</h5>
+                    <h5>Aggiunto</h5>
                    <img src={img} className="img-fluid" alt="product" />
                    <h5>{title}</h5>
                    <h5 className="text-muted">prezzo: $ {price}</h5>
@@ -93,22 +93,22 @@ const ModalContainer = styled.div`
     
     `
     export const ButtonContainers = styled.button`
-text-transform: capitalize;
-font-size: 1.4rem;
-background: transparent;
-
-border: 0.5rem solid lightBlue;
-background-color: white;
-border-color:Yellow;
-bored-radius: 50px !important;
-padding: 0.2rem;
-cursor: pointer;
-margin: 0.2rem 0.5rem 0.2rem 0;
-transition: all 0.5s ease-in-out;
-&:hover{
-    background:  lightBlue;
-    color:var(--mainBlue);
-} &:focus {
-    outline: none;
-}
-`;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background-color: lightyellow;
+    
+    border: 0.1rem solid;
+    
+    border-color:Yellow;
+    bored-radius: 20px !important;
+    padding: 0.2rem;
+    cursor: pointer;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        background:  lightBlue;
+        color:var(--mainBlue);
+    } &:focus {
+        outline: none;
+    }
+    `;
