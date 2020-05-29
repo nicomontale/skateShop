@@ -1,7 +1,7 @@
 export const storeProducts = [
     {
       id: 1,
-      title: "Deck",
+      title: "Deck 1",
       img: "img/product-1.png",
       price: 30,
       company: "Lorem ipsum",
@@ -13,7 +13,7 @@ export const storeProducts = [
     },
     {
       id: 2,
-      title: "Deck",
+      title: "Deck 2",
       img: "img/product-2.png",
       price: 30,
       company: "Lorem ipsum",
@@ -25,7 +25,7 @@ export const storeProducts = [
     },
     {
       id: 3,
-      title: "Deck",
+      title: "Deck 3",
       img: "img/product-3.png",
       price: 30,
       company: "Lorem ipsum",
@@ -37,7 +37,7 @@ export const storeProducts = [
     },
     {
       id: 4,
-      title: "Deck",
+      title: "Deck 4",
       img: "img/product-4.png",
       price: 30,
       company: "Lorem ipsum",
@@ -49,7 +49,7 @@ export const storeProducts = [
     },
     {
       id: 5,
-      title: "Deck",
+      title: "Deck 5",
       img: "img/product-5.png",
       price: 30,
       company: "Lorem ipsum",
@@ -61,7 +61,7 @@ export const storeProducts = [
     },
     {
       id: 6,
-      title: "Deck",
+      title: "Deck 6",
       img: "img/product-6.png",
       price: 30,
       company: "Lorem ipsum",
@@ -73,7 +73,7 @@ export const storeProducts = [
     },
     {
       id: 7,
-      title: "Deck",
+      title: "Deck 7",
       img: "img/product-7.png",
       price: 30,
       company: "Lorem ipsum",
@@ -85,7 +85,7 @@ export const storeProducts = [
     },
     {
       id: 8,
-      title: "Deck",
+      title: "Deck 8",
       img: "img/product-8.png",
       price: 30,
       company: "Lorem ipsum",
