@@ -23,7 +23,7 @@ export default class SkateProduct extends Component {
                     onClick={()=>value.handleDetail(id)}>
 
                     <Link to="/details">
-                        <img src={img} alt="product" className="card-img-top" />
+                        <img src={img} alt="img" className="card-img-top" />
 
                     </Link>
                     <button className="cart-btn"
